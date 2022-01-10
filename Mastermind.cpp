@@ -30,11 +30,11 @@ Abfrage::Abfrage() {
 
 
 void Pieces::setBuchstabe() {
-	int wert;								// Die Rand-Funktion ist in main gesetzt. rand() generiert ein zufälliges Zahl.
+	int wert;								
 	wert = rand() % 3;	
-											// Hier setzten wir modulo %3, weil egal welches random zahl raus kommt (randomzahl % 3 = zwischen 0-2 kommt) 
-	switch (wert) {							// mit switch verknüpfen wir das generierte random % 3 Zahl und unser gewünschte Buchstabe ein. Hier kann man auch anstatt 'A' - 'C' auch Farben nehmen.
-	case 0:									//oder wir ändern modulo %3 in eine andere beliebige Zahl, und bekommen immer die zahlen zwischen, bei 'rand() %n' n=GanzerZahl, 0-(n-1). 
+										
+	switch (wert) {						
+	case 0:					
 		string_buchstabe = "A";
 		break;
 	case 1:
