@@ -1,8 +1,8 @@
 /*
 Erstellt von
-Hasan Baran 5084173
-Timon Meyer 5159794
-Patrick Frerk 5106938
+Hasan Baran 
+Timon Meyer 
+Patrick Frerk 
 */
 
 #include <iostream>
